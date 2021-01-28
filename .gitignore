@@ -1,0 +1,14 @@
+.Rproj.user
+
+data/emp_cr_silva_16S_123.subset
+data/genomes_dpigrum_isolates
+data/genomes_dpigrum_nayfach
+data/genomes_dpigrum_ncbi
+data/genomes_lactobacillales_ncbi
+data/41587_2020_718_MOESM3_ESM.xlsx
+data/gtdb_r95_metadata_dpigrum.tsv
+data/gtdb_r95_metadata_lactobacillales.tsv
+data/nayfach2020_metadata_dpigrum.tsv
+zheng2020_table_S1_corrected.xlsx
+
+results

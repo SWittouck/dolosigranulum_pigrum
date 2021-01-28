@@ -1,0 +1,25 @@
+strain,body_site,age_category,age,health status,isolated_by
+KPL1914,anterior nares,adult,,isolated in setting of disease,lemon lab
+KPL1922_CDC39-95,sinus,child,3 years,isolated in setting of disease,CDC
+KPL1930_CDC2949-98,nasopharynx,,,isolated in setting of disease,CDC
+KPL1931_CDC4294-98,blood,baby,2 months,isolated in setting of disease,CDC
+KPL1932_CDC4420-98,blood,child,11 years,isolated in setting of disease,CDC
+KPL1933_CDC4545-98,nasopharynx,,,isolated in setting of disease,CDC
+KPL1934_CDC4709-98,eye,baby,2 months,isolated in setting of disease,CDC
+KPL1937_CDC4199-99,blood,child,1.8 years,isolated in setting of disease,CDC
+KPL1938_CDC4791-99,nasopharynx,,,isolated in setting of disease,CDC
+KPL1939_CDC4792-99,nasopharynx,,,isolated in setting of disease,CDC
+ATCC 51524,spinal cord,,,isolated in setting of disease,ATCC
+83VPs-KB5,,,,,
+15S00348,,,,,
+AMBR11,nasopharynx,adult,,healthy,LAMB
+AMBR12,anterior nares,child,,healthy,LAMB
+3300006676_5,anterior nares,,,healthy,Nayfach et al.
+3300006993_2,anterior nares,,,healthy,Nayfach et al.
+3300007365_2,anterior nares,,,healthy,Nayfach et al.
+3300007745_2,anterior nares,,,healthy,Nayfach et al.
+3300007936_1,anterior nares,,,healthy,Nayfach et al.
+3300007942_2,anterior nares,,,healthy,Nayfach et al.
+3300007943_5,anterior nares,,,healthy,Nayfach et al.
+3300007883_1,anterior nares,,,healthy,Nayfach et al.
+3300008349_3,anterior nares,,,healthy,Nayfach et al.
