@@ -1,4 +1,4 @@
-# Dolosigranulum pigrum AMBR11
+# Dolosigranulum pigrum
 
 This repository contains scripts to analyze the ecology and evolution of the species Dolosigranulum pigrum. A publication with the results of these analyses is currently under review. 
 
