@@ -99,11 +99,13 @@ lacto <-
   modify_at("genomes", left_join, species_nayfach, by = "species") %>%
   modify_at(
     "genomes", mutate, 
-    probiotic = str_extract(gtdb_taxonomy, "(?<=g__)[^;]+") %in% probiotics,
-    family = str_extract(gtdb_taxonomy, "(?<=f__)[^;]+"),
+    genus = str_remove(gtdb_genus, "^g__"),
+    family = str_remove(gtdb_family, "^f__"),
     probiotic_label = 
       case_when(
-        probiotic ~ "P", species == "Dolosigranulum pigrum" ~ "D", TRUE ~ ""
+        genus %in% probiotics ~ "P", 
+        species == "Dolosigranulum pigrum" ~ "D", 
+        TRUE ~ ""
       )
   ) %>%
   modify_at(

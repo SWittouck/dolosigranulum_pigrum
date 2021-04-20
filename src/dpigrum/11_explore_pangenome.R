@@ -53,6 +53,11 @@ dpigrum$orthogroups %>%
   filter(core_acc == "core") %>%
   nrow()
 
+# number of accessory orthogroups 
+dpigrum$orthogroups %>%
+  filter(core_acc == "accessory") %>%
+  nrow()
+
 # number of core orthogroups (crude estimation strategy as verification)
 dpigrum %>%
   filter_genomes(completeness >= 98) %>%

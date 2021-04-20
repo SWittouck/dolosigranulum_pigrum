@@ -22,56 +22,61 @@ R and R packages:
 
 ## Data
 
-emp_cr_silva_16S_123.subset
+`emp_cr_silva_16S_123.subset`
 
 * dataset from release 1 of the [Earth Microbiome Project](https://earthmicrobiome.org/)
 * downloaded by the script src/emp/01_download_data.sh
 
-genomes_dpigrum_isolates
+`genomes_dpigrum_isolates`
 
 * genomes of the following isolates of the [Lebeer Lab](https://lebeerlab.com/): AMBR12
 
-genomes_dpigrum_nayfach
+`genomes_dpigrum_nayfach`
 
 * all D. pigrum MAGs reconstructed by [Nayfach et al. (2020)](https://doi.org/10.1038/s41587-020-0718-6)
 * downloaded by the script src/dpigrum/03_download_genomes.sh
 
-genomes_dpigrum_ncbi
+`genomes_dpigrum_ncbi`
 
 * all D. pigrum genomes available in the GTDB, downloaded from the NCBI
 * downloaded by the script src/dpigrum/03_download_genomes.sh
 
-genomes_lactobacillales_ncbi
+`genomes_lactobacillales_ncbi`
 
 * a selection of one high-quality genome per species (for Carnobacteriaceae) or per genus (for non-Carnobacteriaceae) downloaded from the NCBI
 * downloaded by the script src/lactobacillales/03_download_genomes.sh
 
-41587_2020_718_MOESM3_ESM.xlsx
+`41587_2020_718_MOESM3_ESM.xlsx`
 
 * very extensive metadata for all MAGs reconstructed by Nayfach et al. (2020)
 * downloaded from https://doi.org/10.1038/s41587-020-0718-6, Supplementary Information
 
-gtdb_r95_metadata_dpigrum.tsv
+`gtdb_r95_metadata_dpigrum.tsv`
 
 * metadata of all Dolosigranulum pigrum genomes that are in release 95 of the GTDB
 * downloaded by the script src/dpigrum/01_download_metadata.R
 
-gtdb_r95_metadata_lactobacillales.tsv
+`gtdb_r95_metadata_lactobacillales.tsv`
 
 * metadata of all Lactobacillales genomes that are in release 95 of the GTDB
 * downloaded by the script src/lactobacillales/01_download_metadata.R
 
-nayfach2020_metadata_dpigrum.tsv 
+`nayfach2020_metadata_dpigrum.tsv`
 
 * metadata of all D. pigrum MAGs reconstructed by Nayfach et al. (2020)
 * downloaded by the script src/dpigrum/01_download_metadata.R
 
-strains_isolation_sources.xlsx
+`spaCBA_LGG_aas.fasta`
+
+* amino acid sequences of spaCBA gene cluster of strain Lactobacillus rhamnosus GG
+* downloaded from GenBank
+
+`strains_isolation_sources.xlsx`
 
 * data on the isolation sources of all D. pigrum strains included
 * health status of Nayfach et al. MAGs: looked up the samples IDs here: <https://gold.jgi.doe.gov/biosamples>
 
-zheng2020_table_S1_corrected.xlsx
+`zheng2020_table_S1_corrected.xlsx`
 
 * metadata for all Lactobacillaceae species described by [Zheng et al. (2020, IJSEM)](https://doi.org/10.1099/ijsem.0.004107)
 * downloaded from <https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.004107#supplementary_data>
